@@ -1,0 +1,92 @@
+### Afficher tous les clients
+GET http://127.0.0.1/clients HTTP/1.1
+
+### Afficher un client
+GET http://127.0.0.1/clients/:id HTTP/1.1
+
+### Ajouter un client
+POST http://127.0.0.1/clients/ajout HTTP/1.1
+Content-Type: application/json
+
+{
+    "nom": "Doe",
+    "prenom": "John",
+    "email": "John.Doe@server.xyz",
+    "num": "06 07 08 09 10"
+}
+
+### Modifier un client
+PUT http://127.0.0.1/clients/modifier/:id HTTP/1.1
+Content-Type: application/json
+
+{
+    "nom": "Loyalty",
+    "email": "Jean.Loyalty@serveur.xyz"
+}
+
+### Suprimer un client
+DELETE http://127.0.0.1/clients/suprimer/:id HTTP/1.1
+
+### Afficher un client
+GET http://127.0.0.1/clients/hotels/:id HTTP/1.1
+
+################################################################################################
+
+### Afficher tous les hotels
+GET http://127.0.0.1/hotels HTTP/1.1
+
+### Afficher un hotel
+GET http://127.0.0.1/hotels/:id HTTP/1.1
+
+### Ajouter un hotel
+POST http://127.0.0.1/hotels/ajout HTTP/1.1
+Content-Type: application/json
+
+{
+    "nom": "Le caporale",
+    "lieux": "Russie",
+    "prix": 100,
+    "note": 5
+}
+
+### Modifier un hotel
+PUT http://127.0.0.1/hotels/modifier/:id HTTP/1.1
+Content-Type: application/json
+
+{
+    "lieux": "Chine"
+}
+
+### Suprimer un hotel
+DELETE http://127.0.0.1/hotels/suprimer/:id HTTP/1.1
+
+### Afficher un hotel
+GET http://127.0.0.1/hotels/clients/:id HTTP/1.1
+
+################################################################################################
+
+### Afficher tous les reservations
+GET http://127.0.0.1/reservations HTTP/1.1
+
+### Afficher une reservation
+GET http://127.0.0.1/reservations/:id HTTP/1.1
+
+### Ajouter une reservation
+POST http://127.0.0.1/reservations/ajout HTTP/1.1
+Content-Type: application/json
+
+{
+    "idClient": "id",
+    "idHotel": "id"
+}
+
+### Modifier une reservation
+PUT http://127.0.0.1/reservations/modifier/:id HTTP/1.1
+Content-Type: application/json
+
+{
+    "idHotel": "id"
+}
+
+### Suprimer une reservation
+DELETE http://127.0.0.1/reservations/suprimer/:id HTTP/1.1

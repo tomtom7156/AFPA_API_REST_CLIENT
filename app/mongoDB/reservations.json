@@ -1,0 +1,13 @@
+[{
+  "_id": {
+    "$oid": "618d163e4f3b37ece855405d"
+  },
+  "idClient": "618d15904f3b37ece8554050",
+  "idHotel": "618d0fda4f3b37ece855404d"
+},{
+  "_id": {
+    "$oid": "618e6b4dd964682d79684d04"
+  },
+  "idClient": "618e6583d964682d79684cfb",
+  "idHotel": "618d95e1a8c5994d7cd7d5ba"
+}]
