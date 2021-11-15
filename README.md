@@ -3,13 +3,9 @@
 <!-- ABOUT THE PROJECT -->
 ## À propos du projet
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur, odio vitae interdum consequat, nulla leo tempus dui, vel blandit eros velit consectetur ex. In hac habitasse platea dictumst. Morbi dapibus vitae enim venenatis venenatis.
+API REST crée en formation fullstack. Cette API de teste nous permet de voir une liste d'hôtels, de clients et de réservations, afin de les afficher, les ajouter, les modifier et les suprimer 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 ### Construit avec
 
@@ -25,12 +21,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur, odio vita
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 <!-- GETTING STARTED -->
-## Commencer
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut efficitur, odio vitae interdum consequat, nulla leo tempus dui, vel blandit eros velit consectetur ex. In hac habitasse platea dictumst. Morbi dapibus vitae enim venenatis venenatis..
 
 ### Conditions préalables
 
