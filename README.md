@@ -3,7 +3,7 @@
 <!-- ABOUT THE PROJECT -->
 ## À propos du projet
 
-API REST crée en formation fullstack. Cette API de teste nous permet de voir une liste d'hôtels, de clients et de réservations, afin de les afficher, les ajouter, les modifier et les suprimer 
+API REST crée en formation fullstack. Cette API de test nous permet de voir une liste d'hôtels, de clients et de réservations, afin de les afficher, les ajouter, les modifier et les supprimer.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
